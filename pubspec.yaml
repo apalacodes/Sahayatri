@@ -51,6 +51,7 @@ dependencies:
   cloud_firestore: ^5.4.1
   location: ^6.0.2
   flutter_map: ^7.0.2
+  flutter_mapbox_navigation: ^0.2.2
 dependency_overrides:
     http: ^1.2.1
 
