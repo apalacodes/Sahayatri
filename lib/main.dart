@@ -1,6 +1,8 @@
+
 import 'package:flutter/material.dart';
 import 'package:sahayatri_app/map_screen.dart';
 import 'package:sahayatri_app/utils/fall_detection.dart';
+import 'splashscreen.dart';
 import 'home_page.dart';
 import 'vision.dart';
 import 'emergency.dart';
@@ -60,7 +62,7 @@ class _MyAppState extends State<MyApp> {
                     Colors.black54), // Use 'bodyMedium' instead of 'bodyText2'
           ),
         ),
-        home: HomePage(),
+        home: const SplashScreen(),
         routes: {
           '/home': (context) => HomePage(),
           '/camera_page': (context) => const CameraScreen(),

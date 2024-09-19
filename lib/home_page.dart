@@ -98,9 +98,12 @@ class _HomePageState extends State<HomePage> {
                   iconColor: const Color(0xff454b7e),
                   padding:
                       const EdgeInsets.symmetric(horizontal: 40, vertical: 15),
-                  textStyle: const TextStyle(fontSize: 18),
+                  textStyle: const TextStyle(fontSize: 25),
                 ),
-                child: const Text('Vision Assistance'),
+                child: const Text('Vision Assistance',
+                    textAlign: TextAlign.center,
+                    style: TextStyle(fontSize: 25)
+                ),
               ),
             ],
           ),
